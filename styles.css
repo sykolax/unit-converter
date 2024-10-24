@@ -40,6 +40,12 @@ input {
     font-weight: 600;
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 .header-container {
     background-color: var(--color-purple-1);
 }
