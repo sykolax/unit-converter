@@ -31,6 +31,13 @@ p {
 
 input {
     font-size: 58px;
+    width: 120px;
+    background-color: var(--color-purple-1);
+    border: 2px solid var(--color-purple-2);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
 }
 
 .header-container {
