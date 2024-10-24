@@ -9,6 +9,7 @@
 body {
     background-color: var(--color-navy-1);
     color: white;
+    font-family: Inter, sans-serif;
 }
 
 h2 {
