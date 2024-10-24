@@ -28,4 +28,5 @@ h2 {
 
 .conversion-output {
     background-color: var(--color-navy-2);
+    width: 500px;
 }
