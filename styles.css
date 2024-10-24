@@ -25,3 +25,7 @@ h2 {
     flex-direction: column;
     align-items: center;
 }
+
+.conversion-output {
+    background-color: var(--color-navy-2);
+}
