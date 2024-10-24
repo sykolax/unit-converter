@@ -5,3 +5,16 @@
     --color-purple-2: #B295FF;
     --color-purple-3: #CCC1FF;
 }
+
+body {
+    background-color: var(--color-navy-1);
+    color: white;
+}
+
+h2 {
+    color: var(--color-purple-3);
+}
+
+.header-container {
+    background-color: var(--color-purple-1);
+}
