@@ -76,5 +76,10 @@ button {
 
 .conversion-output {
     background-color: var(--color-navy-2);
+    width: 400px;
+}
+
+.conversion-output-container {
     width: 500px;
+    padding: 50px 0;
 }
