@@ -60,6 +60,14 @@ button {
     padding: 35px 0;
 }
 
+.header-container h1 {
+    margin-bottom: 30px;
+}
+
+.header-container input {
+    margin-bottom: 25px;
+}
+
 .container-flex-col {
     display: flex;
     flex-direction: column;
