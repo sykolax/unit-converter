@@ -10,3 +10,14 @@ const inputEl = document.querySelector("input[type='number']");
 const lengthTextEl = document.querySelector("#length-conversion p");
 const volumeTextEl = document.querySelector("#volume-conversion p");
 const massTextEl = document.querySelector("#mass-conversion p");
+
+function convertUnits() {
+    const inputValue = inputEl.value;
+
+    lengthTextEl.textContent = `${inputValue} meters = ${inputValue * METER2FEET} feet 
+    | ${inputValue} feet = ${inputValue * FEET2METER} meters`;
+    volumeTextEl.textContent = `${inputValue} liters = ${inputValue * LITER2GALLON} gallons 
+    | ${inputValue} gallons = ${inputValue * GALLON2LITER} liters`
+    massTextEl.textContent = `${inputValue} kilos = ${inputValue * KG2POUND} pounds 
+    | ${inputValue} pounds = ${inputValue * POUND2KG} kilos`;
+}
