@@ -14,10 +14,10 @@ const massTextEl = document.querySelector("#mass-conversion p");
 function convertUnits() {
     const inputValue = inputEl.value;
 
-    lengthTextEl.textContent = `${inputValue} meters = ${inputValue * METER2FEET} feet 
-    | ${inputValue} feet = ${inputValue * FEET2METER} meters`;
-    volumeTextEl.textContent = `${inputValue} liters = ${inputValue * LITER2GALLON} gallons 
-    | ${inputValue} gallons = ${inputValue * GALLON2LITER} liters`
-    massTextEl.textContent = `${inputValue} kilos = ${inputValue * KG2POUND} pounds 
-    | ${inputValue} pounds = ${inputValue * POUND2KG} kilos`;
+    lengthTextEl.textContent = `${inputValue} meters = ${(inputValue * METER2FEET).toFixed(3)} feet 
+    | ${inputValue} feet = ${(inputValue * FEET2METER).toFixed(3)} meters`;
+    volumeTextEl.textContent = `${inputValue} liters = ${(inputValue * LITER2GALLON).toFixed(3)} gallons 
+    | ${inputValue} gallons = ${(inputValue * GALLON2LITER).toFixed(3)} liters`
+    massTextEl.textContent = `${inputValue} kilos = ${(inputValue * KG2POUND).toFixed(3)} pounds 
+    | ${inputValue} pounds = ${(inputValue * POUND2KG).toFixed(3)} kilos`;
 }
