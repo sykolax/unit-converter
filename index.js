@@ -21,3 +21,5 @@ function convertUnits() {
     massTextEl.textContent = `${inputValue} kilos = ${(inputValue * KG2POUND).toFixed(3)} pounds 
     | ${inputValue} pounds = ${(inputValue * POUND2KG).toFixed(3)} kilos`;
 }
+
+convertBtn.addEventListener("click", convertUnits);
